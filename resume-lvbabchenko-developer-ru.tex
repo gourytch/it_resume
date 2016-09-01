@@ -1,0 +1,101 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{casual}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+
+\usepackage[russian]{babel}
+% \usepackage{amssymb}
+% \usepackage{amsmath}
+% \usepackage{amstext}
+
+\firstname{Лев}
+\familyname{Бабченко}
+\email{lvbabchenko@gmail.com}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\nopagenumbers{}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Навыки}
+\cvcomputer{Языки программирования}{C/C++, Python, SQL, PgSQL, XHTML, CSS, XPath,
+                       JavaScript, Perl, Bash, Ada, Pascal, Tcl, Lua, Java, POVRay, \LaTeX}
+           {Операционные Системы}{Linux, Windows, HP-UX, AIX, \\
+                               Solaris, xBSD, OS/2, BeOS, xDOS, CP/M, RT11}
+\cvcomputer{СУБД}{DB2 UDB (SQL, API, Low-Level),\\
+                       PostgreSQL, SQLite, MySQL,\\
+                       OpenLDAP, dBase, Oracle, \\
+                       BerkleyDB, Borland DBE}
+           {Инструменты и библиотеки}{TSM, AWS, AJAX, Tcl/Tk, STL, wxWidgets, Django, WSGI,
+                        SDL, OpenGL, X11, OpenLook,\\
+                        Subversion, CVS, RCS, git, VSS, \\
+                        RockeTrack, BugZilla, mantis, trac}
+\cvcomputer{Ассемблеры}{BASM, MASM, TASM, GAS, Micro}{Instruction Sets}{x86, i8080A, PDP-11, p-code}
+
+\section{Языки}
+\cvlanguage{Русский}{Родной}{}
+\cvlanguage{Английский}{Уверенный}{технический свободно, разговорный средний}
+
+\section{Опыт работы}
+% \subsection{Vocational}
+\cventry{2009--наст.вр.}{Руководитель отдела ИТ}{ООО «ТиДжи Телеком»}{Челябинск}{}{Разработка ПО, решение проблем, управление отделом, учёт}
+\cventry{2009--наст.вр.}{Системный администратор}{ООО «Прикладные Технологии»}{Челябинск}{}{Проект финансового анализа и прогнозирования}
+\cventry{2004--2009}{Ведущий программист}{ООО «ТиДжи Телеком»}{Челябинск}{}{Разработка ПО для системы платёжных терминалов}
+\cventry{2005--2006}{Программист}{oDesk Corp.}{San Francisco}{}{Web-Программирование}
+\cventry{2003--2009}{Программист}{ООО «Прикладные Технологии»}{Челябинск}{}{Разработка системы анализа и восстановления данных СУБД DB2}
+\cventry{1999--2003}{Ведущий программист}{Высшая Школа Бизнеса}{Челябинск}{}{Разработка инструмента для отображения и анализа данных для СУБД DB2}
+\cventry{1996--1999}{Программист}{ЗАО «Недра»}{Челябинск}{}{Разработка Геоинформационной системы}
+\cventry{1994--1996}{Программист}{ОВО при Курчатовском РОВД}{Челябинск}{}{Разработка ПО для системы радиоохраны}
+\cventry{1993--1994}{Технический директор}{Рекламное агенство «Верктекс»}{Челябинск}{}{менеджмент ИТ-ресурсов, графика и оцифровка}
+\cventry{1992--1992}{Программист}{ОНД Челябинской обл.}{Челябинск}{}{Разработка экспертных систем}
+% \subsection{Miscellaneous}
+
+\section{Проекты}
+
+\cventry{2010--2010}{GDS}{}{}{}{Учёт транспортного и пассажиропотока -- модули управления и статистики}
+\cventry{2010--2010}{DataPump}{}{}{}{Подсистема асинхронной загрузки данных}
+
+\cventry{2010--2011}{TGPay2}{}{}{ООО «ТиДжи Телеком»}{Платёжная система, продолжение TGPay}
+\cventry{2009--2011}{Tracker.KCN}{}{}{ООО «ТиДжи Телеком»}{Система ведения заказов}
+\cventry{2009--2010}{BezzaBot}{}{}{}{Система полуавтоматической симуляции присутствия человека в сети}
+\cventry{2007--current}{(unnamed)}{Applied Technologies, Ltd.}{}{}{Система автоматического сохранения данных}
+\cventry{2005--2010}{TGPay}{}{}{ООО «ТиДжи Телеком»}{Система платёжных терминалов}
+\cventry{2004--2005}{FunFactory}{}{}{ООО «ТачГейм»}{системное и прикладное ПО для игровых терминалов}
+
+\cventry{2002--2009}{Recovery Expert for Multiplatforms}{}{}{Rocket Software, Inc.}{Инструментарий для аудита и восстаноаленния данных СУБД DB2}
+\cventry{1999--2002}{QMF for Windows/Rocket Shuttle}{}{}{Rocket Software, Inc.}{Генератор отчётов и визуализатор данных для DB2}
+\cventry{1999--1999}{TreeDB}{Высшая Школа Бизнеса}{Челябинск}{}{Древовидная база данных (LDAP-like)}
+
+\cventry{2004--2005}{(unnamed)}{}{}{oDesk Corp.}{Платформа для проведения онлайн-аукционов}
+
+\cventry{1997--1998}{NedraGIS}{}{}{ЗАО «Недра»}{Геоинформационная система}
+\cventry{1997--1998}{GISImport}{}{}{ЗАО «Недра»}{преобразователь данных для NedraGIS}
+\cventry{1997--1998}{GISPic}{}{}{ЗАО «Недра»}{полуавтоматический преобразователь крупноформатных изображений}
+
+\cventry{1995--1997}{RCSS}{}{}{ОВО Курчатовского РОВД}{ПО для центрального пульта радиоохраны}
+\cventry{1995--1997}{NetBackup}{}{}{ОВО Курчатовского РОВД}{Система сетевого резервного копирования}
+
+\cventry{1993--1995}{ExpSys}{ОНД Челябинской обл.}{Челябинск}{}{
+Экспертная Система нахождения возможных диагнозов на основе неполного множества анализов и обследований}
+
+\cventry{1992--1993}{Scheduler}{ПТУ}{Челябинск}{}{
+Приложение для полноэкранного составления школьных расписаний
+    }
+
+% \section{Education}
+% \cventry{2002--2006}{Applied Mathematics}{Chelyabinsk State University}{}{\textit{unfinished}}{}
+% \section{Master thesis}
+% \cvline{title}{\emph{Title}}
+% \cvline{supervisors}{Supervisors}
+% \cvline{description}{\small Short thesis abstract}
+
+
+\end{document}
+%% end of file

@@ -1,0 +1,49 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{casual}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\firstname{Alexander}
+\familyname{Leiderman}
+\email{a.m.leiderman@gmail.com}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\nopagenumbers{}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Computer skills}
+\cvcomputer{Languages}{C/C++, Python, Perl, Bash, XML, HTML + JavaScript}
+           {Databases}{BerkeleyDB, SQLite, PostgreSQL, MySQL, DB2}
+\cvcomputer{Operation Systems}{Linux, Windows, MS-DOS}
+           {Linux Distros}{RedHat, SUSE, Debian, Ubuntu, Gentoo}
+\cvcomputer{IDE}{Eclipse, MS Visual Studio, Eric, SciTE, Vim, emacs}
+           {VCS}{Subversion, CVS, MS Source Safe}
+
+\section{Languages}
+\cvlanguage{Russian}{Native}{}
+\cvlanguage{English}{Intermediate}{good technical reading, basic spoken language}
+
+\section{Work Experience}
+\cventry{1997-2001}{Programmer}{ZAO «Nedra»}{Chelyabinsk}{}{development for geographic information systems, system administration}
+\cventry{2001-2002}{System Programmer}{ZAO «Catran»}{Chelyabinsk}{}{software development for security systems}
+\cventry{2002-2011}{System Programmer}{OOO «Maximum»}{Chelyabinsk}{}{system software development}
+
+% \newpage
+
+\section{Education}
+\cventry{1992--1997}{Applied Mathematics}{Chelyabinsk State University}{}{}{Bachelor in Applied Mathematics and Information Technologies}
+% \section{Master thesis}
+% \cvline{title}{\emph{Title}}
+% \cvline{supervisors}{Supervisors}
+% \cvline{description}{\small Short thesis abstract}
+
+
+\end{document}
+%% end of file
