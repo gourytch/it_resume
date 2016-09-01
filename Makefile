@@ -2,8 +2,9 @@
 
 DIRNAME := $(shell basename $(CURDIR))
 
-all: resume-lvbabchenko-developer.pdf resume-lvbabchenko-developer-ru.pdf \
-	resume-lvbabchenko-4rocket-ru.pdf resume-lvbabchenko-4rocket.pdf
+all: resume-lvbabchenko-4vms.pdf
+#	resume-lvbabchenko-developer.pdf resume-lvbabchenko-developer-ru.pdf \
+#	resume-lvbabchenko-4rocket-ru.pdf resume-lvbabchenko-4rocket.pdf
 #	 resume-leiderman.pdf
 
 %.pdf: %.tex
