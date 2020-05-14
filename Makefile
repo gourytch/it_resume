@@ -10,6 +10,8 @@ all: resume-lvbabchenko-developer-ru.pdf resume-lvbabchenko-developer.pdf
 %.pdf: %.tex
 	pdflatex $<
 
+#	gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -sOutputFile=%.safe.pdf %.pdf
+
 #%.pdf: %.dvi
 #	dvipdft $^
 

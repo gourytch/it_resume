@@ -7,4 +7,5 @@ RUN apt-get update && \
         make \
         texlive-latex-recommended \
         texlive-fonts-recommended \
-        texlive-lang-cyrillic
+        texlive-lang-cyrillic \
+        ghostscript
