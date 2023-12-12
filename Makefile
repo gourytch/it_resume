@@ -7,7 +7,7 @@ all: resume-lvbabchenko-developer-ru.pdf resume-lvbabchenko-developer.pdf
 #	resume-lvbabchenko-4rocket-ru.pdf resume-lvbabchenko-4rocket.pdf
 #	 resume-leiderman.pdf
 
-%.pdf: %.tex
+%.pdf:: %.tex
 	pdflatex $<
 
 #	gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -sOutputFile=%.safe.pdf %.pdf
